@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { CalculatorCategory } from './calculatorTypes';
 import { mathCalculators } from './categories/mathCalculators';
@@ -16,7 +15,7 @@ export const calculatorCategories: CalculatorCategory[] = [
     calculators: mathCalculators
   },
   {
-    name: 'Education',
+    name: 'Academic',
     calculators: educationCalculators
   },
   {

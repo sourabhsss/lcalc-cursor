@@ -1,4 +1,3 @@
-
 import React from 'react';
 import CalculatorLayout from '@/components/CalculatorLayout';
 import CashBackCalculator from '@/calculators/cashBack/CashBackCalculator';
@@ -11,6 +10,7 @@ const CashBackCalculatorPage: React.FC = () => {
       category="Finance"
       categoryUrl="/calculators"
       metaDescription="Free online Cash Back Calculator - Determine the true value of your credit card rewards, compare cash back options, and optimize your spending strategy for maximum returns."
+      canonicalUrl="https://lcalculator.com/cash-back-calculator"
     >
       <div className="py-12">
         <CashBackCalculator />

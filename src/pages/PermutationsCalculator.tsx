@@ -1,4 +1,3 @@
-
 import React from 'react';
 import CalculatorLayout from '@/components/CalculatorLayout';
 import PermutationsCalculator from '@/calculators/permutations/PermutationsCalculator';
@@ -11,6 +10,7 @@ const PermutationsCalculatorPage: React.FC = () => {
       category="Math & Statistics"
       categoryUrl="/calculators"
       metaDescription="Free online Permutations Calculator (nPr) - Calculate the number of possible arrangements when ordering items from a set. Used for probability, statistics, cryptography, and combinatorial problems."
+      canonicalUrl="https://lcalculator.com/permutations-calculator"
     >
       <div className="py-12">
         <PermutationsCalculator />

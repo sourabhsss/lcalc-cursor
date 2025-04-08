@@ -1,4 +1,3 @@
-
 import React from 'react';
 import CalculatorLayout from '@/components/CalculatorLayout';
 import TenKeyCalculator from '@/calculators/tenKey/TenKeyCalculator';
@@ -12,6 +11,7 @@ const TenKeyCalculatorPage: React.FC = () => {
       category="Math & Statistics"
       categoryUrl="/calculators"
       metaDescription="Use our free online 10-key calculator with paper tape function for accounting, bookkeeping, and financial calculations. Optimized for speed and accuracy with keyboard shortcuts."
+      canonicalUrl="https://lcalculator.com/ten-key-calculator"
     >
       <div className="py-12">
         <TenKeyCalculator />

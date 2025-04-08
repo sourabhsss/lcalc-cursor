@@ -1,4 +1,3 @@
-
 import React from 'react';
 import CalculatorLayout from '@/components/CalculatorLayout';
 import StandardDeviationCalculator from '@/calculators/standardDeviation/StandardDeviationCalculator';
@@ -11,6 +10,7 @@ const StandardDeviationCalculatorPage: React.FC = () => {
       category="Math & Statistics"
       categoryUrl="/calculators"
       metaDescription="Free online Standard Deviation Calculator - Calculate mean, variance, standard deviation, and other statistical measures for your data. Perfect for statistical analysis, research, data science, and educational purposes."
+      canonicalUrl="https://lcalculator.com/standard-deviation-calculator"
     >
       <div className="py-12">
         <StandardDeviationCalculator />
